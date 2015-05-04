@@ -1,26 +1,20 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Bitcoin Homepage</title>
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="/static/survey.css">
+{% extends 'base.html' %}
 
-    </head>
-    
-    <body>
+{% block title %}Bitcoin Homepage{% endblock %}
+
+{% block body %}
     <div class="container">
-        <div class="navbar-default">
-            <div class="navbar-header">
-                <div id"navbar">
-                    <ul>
-                        <li>Home</li>
-                        <li>History</li>
-                        <li>Uses</li>
-                        <li>Problems</li>
-                    </ul>
+        
+            <h1>Bitcoin</h1>
+                <div class="def container">
+                    <h3>Definition</h3>
+                        <p>Bitcoin is an online currency created by Satoshi Nakamoto in 2008. People can make transactions among one another anonymously, excluding banks and having to provide personal information to a financial entity. 
+                        </p>
                 </div>
-            </div>
-        </div>
+
+                        <!--Due to lack of regulation, bitcoin transactions-->
+
+        
+
     </div>
-    </body>
-</html>
+{% endblock %}

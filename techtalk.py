@@ -18,8 +18,9 @@ def say_hello():
 def home_page():
     return render_template('homepage.html')
 
-
-
+@app.route('/how-to-use')
+def how_to_use():
+    return render_template('how-to-use.html')
 
 if __name__ == "__main__":
     app.run(debug=True)
