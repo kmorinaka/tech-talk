@@ -1,8 +1,12 @@
+/* CSS for homepage.html */
 .def {
     border-style: solid;
     border-color: black;
     border-width: 3px;
 }
+
+
+/* CSS for how-to-use.html */
 .container-img {
     width: 1000px;
     height: 500px;
