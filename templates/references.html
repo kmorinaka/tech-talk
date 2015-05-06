@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}Bitcoin Homepage{% endblock %}
+
+{% block body %}
+<style>
+    .ref li > a::before {
+        content: attr(href);
+    }
+</style>
+    <div class="container">
+        <ul class="ref">
+            <li><a href="https://bitcoin.org/en/"></a></li>
+            <li><a href="http://en.wikipedia.org/wiki/Bitcoin"></a></li>
+            <li><a href="http://www.bitcoin.com/"></a></li>
+        </ul>
+    </div>
+
+{% endblock %}

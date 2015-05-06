@@ -1,3 +1,10 @@
+/* CSS for base.html */
+.navbar-default {
+    box-shadow: none;
+    border-radius: 0;
+    border: 3px solid black;
+}
+
 /* CSS for homepage.html */
 .def {
     border-style: solid;
@@ -7,11 +14,6 @@
 
 
 /* CSS for how-to-use.html */
-.container-img {
-    width: 1000px;
-    height: 500px;
-}
-.container-img img {
-    width: 1000px;
-    height: auto;
+.container-img img{
+    width: 100%;
 }
